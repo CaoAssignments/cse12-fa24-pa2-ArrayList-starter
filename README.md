@@ -278,7 +278,7 @@ We provide two test files:
    <td>
       <ul>
          <li>
-            Rotate right an element at an out-of-bounds index
+            Rotate right the ArrayList by an out-of-bounds value for numPositions
          </li>
       </ul>
    </td>
