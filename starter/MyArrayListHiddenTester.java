@@ -146,7 +146,7 @@ public class MyArrayListHiddenTester {
 
     /**
      * Aims to test the rotate method when 
-     * input index is out of bounds
+     * input numPositions is out of bounds
      */
     @Test
     public void testRotateOutOfBound() {
