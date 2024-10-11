@@ -77,17 +77,17 @@ public interface MyList<E> {
     int size();
 
     /**
-     * Rotate the list by index number of positions to the left
+     * Rotate the list by numPositions number of positions to the right
      * 
-     * @param index the number of positions to rotate by
+     * @param numPositions the number of positions to rotate by
      */
-    void rotate(int index);
+    void rotate(int numPositions);
 
     /**
      * Find the element in the list and return its index
      * 
      * @param element the element to find
-     * @return the index of the first occurrence of element (-1 if not found)
+     * @return the index of the last occurrence of element (-1 if not found)
      */
     int find(E element);
 }
