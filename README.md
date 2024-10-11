@@ -271,7 +271,7 @@ We provide two test files:
       Test if the list is rotated correctly. Size and capacity should remain unchanged.
       <ul>
          <li>
-            Rotate right an element at index in the range [0, size - 1]
+            Rotate right the ArrayList by numPositions in the range [0, size - 1]
          </li>
       </ul>
    </td>
